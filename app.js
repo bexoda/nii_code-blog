@@ -63,6 +63,6 @@ app.get('/blog/:_id', (req, res) => {
   });
 });
 
-app.listen('8000', () => {
+app.listen(process.env.PORT, () => {
   console.log(`app is listning on ${PORT}`);
 });
